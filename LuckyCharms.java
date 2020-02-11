@@ -9,6 +9,7 @@ public class LuckyCharms extends Cereal{
 	
 	@Override
 	public void prepare(){
+		super.prepare();
 		System.out.println("- Gather the grain");
 		System.out.println("- Shape into circles");
 		System.out.println("- Create marshmellow shapes");
